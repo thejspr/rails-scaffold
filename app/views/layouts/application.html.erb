@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>changeme</title>
+
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <header class='site-heading text-center'>
+      <%= link_to root_url do %>
+        <h1>changeme</h1>
+      <% end %>
+    </header>
+
+    <%= yield %>
+  </div>
+</body>
+</html>
