@@ -27,6 +27,7 @@ end
 
 group :development do
   gem 'mailcatcher'
+  gem 'quiet_assets'
 end
 
 group :production do
